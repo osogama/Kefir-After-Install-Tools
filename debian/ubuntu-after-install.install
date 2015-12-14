@@ -1,0 +1,10 @@
+# NO leading slashes also make sure of paths confusing 
+lib/icons/green.svg /opt/thefanclub/ubuntu-after-install/lib/icons/
+lib/icons/grey.svg /opt/thefanclub/ubuntu-after-install/lib/icons/
+lib/icons/orange.svg /opt/thefanclub/ubuntu-after-install/lib/icons/
+lib/icons/red.svg /opt/thefanclub/ubuntu-after-install/lib/icons/
+version.txt /opt/thefanclub/ubuntu-after-install/
+ubuntu-after-install.xml /opt/thefanclub/ubuntu-after-install/
+ubuntu-after-install.png /opt/thefanclub/ubuntu-after-install/
+ubuntu-after-install.py /opt/thefanclub/ubuntu-after-install/
+ubuntu-after-install.desktop /usr/share/applications/

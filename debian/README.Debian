@@ -1,0 +1,19 @@
+Ubuntu After Install
+--------------------
+Automated installation a lot of useful extra software on Ubuntu after the initial desktop install. 
+
+This program installs a collection of some of the best Ubuntu software and can be considered to be one of the top things to do after installing Ubuntu.
+
+Selecting and Installing all the extra software on a new Ubuntu computer can be time consuming. I wanted to automate the process on new machines as well as simplify the installation for new users. All comments and improvements are very welcome. 
+
+The program will install the latest versions of all software listed below as well as add the required PPA's to keep the software up to date.
+
+Installation
+------------
+launch ubuntu-after-install from the dash menu after install or from command line with : gksudo python /opt/thefanclub/grive-tools/ubuntu-after-install.py
+
+Support
+-------
+Project Homepage can be found at : http://www.thefanclub.co.za/how-to/ubuntu-after-install
+
+ -- The Fan Club<info@thefanclub.co.za>  Sun, 13 Oct 2013 20:08:05 +0200

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<UbuntuAfterInstall>
+    <Software>
+        <Item>
+            <Title>Synapse</Title>
+            <Description>Package Install</Description>
+            <InstallTitle>synapse</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>WiFite</Title>
+            <Description>wifite</Description>
+            <InstallTitle>wifite aircrack-ng reaver</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+           <Item>
+            <Title>Htop</Title>
+            <Description>htop for shell</Description>
+            <InstallTitle>htop</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Ubuntu Restricted Extras</Title>
+            <Description>Video and Audio codecs</Description>
+            <InstallTitle>ubuntu-restricted-extras</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall>sh -c "echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections"</PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>      
+        <Item>
+            <Title>VideoLAN libdvdcss2</Title>
+            <Description>DVD Decryption</Description>
+            <InstallTitle>libdvdcss2</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey>http://download.videolan.org/pub/debian/videolan-apt.asc</GetAptKey>
+            <AptListEntry>http://download.videolan.org/pub/debian/stable/ /</AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Unity Tweak Tool</Title>
+            <Description>Desktop Settings</Description>
+            <InstallTitle>unity-tweak-tool</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion>12.10</MinVersion>
+        </Item>
+        <Item>
+            <Title>Bleach Bit</Title>
+            <Description>Clear ubuntu</Description>
+            <InstallTitle>bleachbit</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion>12.10</MinVersion>
+        </Item>
+        <Item>
+            <Title>Variety</Title>
+            <Description>Wallpaper Changer</Description>
+            <InstallTitle>variety</InstallTitle>
+            <PPA>ppa:peterlevi/ppa</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Google Chrome</Title>
+            <Description>Browser</Description>
+            <InstallTitle>google-chrome-stable</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey>https://dl-ssl.google.com/linux/linux_signing_key.pub</GetAptKey>
+            <AptListEntry>http://dl.google.com/linux/chrome/deb/ stable main</AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>LibreOffice</Title>
+            <Description>Office Suite</Description>
+            <InstallTitle>libreoffice</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Skype</Title>
+            <Description>Instant Messenger</Description>
+            <InstallTitle>skype</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Grive Tools</Title>
+            <Description>Google Drive</Description>
+            <InstallTitle>grive-tools</InstallTitle>
+            <PPA>ppa:thefanclub/grive-tools</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion>12.10</MinVersion>
+        </Item>
+        <Item>
+            <Title>Tux Guitar</Title>
+            <Description>Guitar Pro</Description>
+            <InstallTitle>tuxguitar-alsa tuxguitar-jsa tuxguitar-oss</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>DropBox</Title>
+            <Description>File Sharing</Description>
+            <InstallTitle>nautilus-dropbox</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>VLC</Title>
+            <Description>Media Player</Description>
+            <InstallTitle>vlc</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>KODI</Title>
+            <Description>Media Center</Description>
+            <InstallTitle>kodi</InstallTitle>
+            <PPA>ppa:team-xbmc/ppa</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>mplayer2</Title>
+            <Description>A terminal Player</Description>
+            <InstallTitle>mplayer2</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>FBI</Title>
+            <Description>FBI imagem shell</Description>
+            <InstallTitle>fbi</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Links 2</Title>
+            <Description>Terminal browser</Description>
+            <InstallTitle>links2</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Radio Tray</Title>
+            <Description>Streaming Radio</Description>
+            <InstallTitle>radiotray</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Geany</Title>
+            <Description>IDE code editor</Description>
+            <InstallTitle>geany</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Gimp</Title>
+            <Description>Image Editor</Description>
+            <InstallTitle>gimp</InstallTitle>
+            <PPA>ppa:otto-kesselgulasch/gimp</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>My Paint</Title>
+            <Description>Image Editor</Description>
+            <InstallTitle>mypaint</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Darktable</Title>
+            <Description>Image Processor</Description>
+            <InstallTitle>darktable</InstallTitle>
+            <PPA>ppa:pmjdebruijn/darktable-release</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Inkscape</Title>
+            <Description>Vector Graphics Editor</Description>
+            <InstallTitle>inkscape</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Scribus</Title>
+            <Description>Desktop Publishing</Description>
+            <InstallTitle>scribus</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Samba</Title>
+            <Description>Network File Sharing</Description>
+            <InstallTitle>samba samba-common libpam-smbpass winbind smbclient</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>PDF Tools</Title>
+            <Description>Edit PDF's</Description>
+            <InstallTitle>pdfmod pdfshuffler pdfchain</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>OpenShot</Title>
+            <Description>Video Editor</Description>
+            <InstallTitle>openshot</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Kdenlive</Title>
+            <Description>Video Editor</Description>
+            <InstallTitle>kdenlive</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>       
+        <Item>
+            <Title>HandBrake</Title>
+            <Description>Video Transcoder</Description>
+            <InstallTitle>handbrake-gtk</InstallTitle>
+            <PPA>ppa:stebbins/handbrake-snapshots</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Audacity</Title>
+            <Description>Sound Editor</Description>
+            <InstallTitle>audacity</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Steam</Title>
+            <Description>Game Platform</Description>
+            <InstallTitle>steam</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>KeePassX</Title>
+            <Description>Password Manager</Description>
+            <InstallTitle>keepassx</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Shutter</Title>
+            <Description>Screenshot Tool</Description>
+            <InstallTitle>shutter</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>FileZilla</Title>
+            <Description>FTP Client</Description>
+            <InstallTitle>filezilla</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Furios ISO Mount</Title>
+            <Description>Mount ISO Files</Description>
+            <InstallTitle>furiusisomount</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>p7zip</Title>
+            <Description>Compression Tool</Description>
+            <InstallTitle>p7zip-full p7zip-rar</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item> 
+        <Item>
+            <Title>Gdebi</Title>
+            <Description>Package installer</Description>
+            <InstallTitle>gdebi</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Winrar</Title>
+            <Description>Descompression Tool</Description>
+            <InstallTitle>rar</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Indicator System</Title>
+            <Description>System Indicator</Description>
+            <InstallTitle>indicator-sysmonitor</InstallTitle>
+            <PPA>ppa:fossfreedom/indicator-sysmonito</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+    </Software>>    
+</UbuntuAfterInstall>
