@@ -11,7 +11,7 @@ Selecting and Installing all the extra software on a new Ubuntu computer can be 
 
 
 maybe you need install:
-
+----------------------
 sudo apt-get install python-software-properties
 
 sudo apt-get install python-webkit
