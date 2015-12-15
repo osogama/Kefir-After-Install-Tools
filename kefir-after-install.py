@@ -970,9 +970,9 @@ if __name__ == "__main__":
   userHome = os.getenv("HOME")
   timeStamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
   installDir = './'
-  logFile = '/var/log/ubuntu-after-install.log'
+  logFile = '/var/log/kefir-after-install.log'
   lockFilePath = os.path.join('/tmp/ubuntu-after-install.lock')
-  iconPath = os.path.join(installDir, 'ubuntu-after-install.png')
+  iconPath = os.path.join(installDir, 'kefir-after-install.png')
   iconPathError = os.path.join(installDir, 'lib', 'icons', 'red.svg')
   iconPathReinstall = os.path.join(installDir, 'lib', 'icons', 'orange.svg')
   iconPathOk = os.path.join(installDir, 'lib', 'icons', 'green.svg')
@@ -1030,7 +1030,9 @@ if __name__ == "__main__":
 
 
   # START Splash Screen
+
   renderStartupSplash()
+
   # need this to render splash screen at this point
   time.sleep(0.1)
   refreshGui()
@@ -1051,12 +1053,12 @@ if __name__ == "__main__":
       renderOfflineDialog()
  
   # Check for list update 
-  splashProgressBar.set_text('Checking for updates...')
-  splashProgressBar.set_fraction(0.4)
-  refreshGui()
-  if checkInternetConnection('http://thefanclub.co.za') == True:
+  #splashProgressBar.set_text('Checking for updates...')
+  #splashProgressBar.set_fraction(0.4)
+  #refreshGui()
+  #if checkInternetConnection('http://ubuntu.com') == True:
       # ONLINE
-      checkUpdate()
+      #checkUpdate()
  
   # Add Partner Repo Active
   splashProgressBar.set_text('Checking software sources...')
