@@ -15,3 +15,5 @@ maybe you need install:
 sudo apt-get install python-software-properties
 
 sudo apt-get install python-webkit
+
+<edilson_alz@hotmail.com>
