@@ -10,7 +10,7 @@ Selecting and Installing all the extra software on a new Ubuntu computer can be 
 ![alt tag](https://scontent-mia1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/12366205_939594242782915_2459608111902928587_n.png?oh=e632bc40aa6609870017e671e295ae03&oe=56E5675F)
 
 
-mabe you need install:
+maybe you need install:
 
 sudo apt-get install python-software-properties
 
