@@ -18,15 +18,16 @@ Selecting and Installing all the extra software on a new Ubuntu computer can be 
 </p>
 
 
-> Maybe you need install:
+Maybe you need install:
 
-sudo apt-get install python-software-properties
+> sudo apt-get install python-software-properties
 sudo apt-get install python-webkit
 
-> to install on your operating system, RUN:
+To install on your operating system, RUN:
 
-chmod 777 ./install.sh
-sudo ./install.sh
+> chmod 777 ./install.sh
+> sudo ./install.sh
 
 
+Edilson Alzemand Sigmaringa Junior
 <edilson_alz@hotmail.com>
