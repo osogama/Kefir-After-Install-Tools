@@ -26,9 +26,9 @@ Maybe you need install:
 
 To install on your operating system, RUN:
 
-> chmod 777 ./install.sh
+> chmod 777 ./INSTALL.sh
 
-> sudo ./install.sh
+> sudo ./INSTALL.sh
 
 
 Edilson Alzemand Sigmaringa Junior
