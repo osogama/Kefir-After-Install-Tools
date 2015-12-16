@@ -2,7 +2,7 @@
 #
 # Kefir After Install 
 #
-# Version :  2.6 beta
+# Version :  Alpha
 # Kefir After Install by Edilson Alzemand 
 
 import gi

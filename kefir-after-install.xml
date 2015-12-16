@@ -13,28 +13,6 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
-            <Title>WiFite</Title>
-            <Description>wifite</Description>
-            <InstallTitle>wifite aircrack-ng reaver</InstallTitle>
-            <PPA></PPA>
-            <GetAptKey></GetAptKey>
-            <AptListEntry></AptListEntry>
-            <PreInstall></PreInstall>
-            <PostInstall></PostInstall>
-            <MinVersion></MinVersion>
-        </Item>
-           <Item>
-            <Title>Htop</Title>
-            <Description>htop for shell</Description>
-            <InstallTitle>htop</InstallTitle>
-            <PPA></PPA>
-            <GetAptKey></GetAptKey>
-            <AptListEntry></AptListEntry>
-            <PreInstall></PreInstall>
-            <PostInstall></PostInstall>
-            <MinVersion></MinVersion>
-        </Item>
-        <Item>
             <Title>Ubuntu Restricted Extras</Title>
             <Description>Video and Audio codecs</Description>
             <InstallTitle>ubuntu-restricted-extras</InstallTitle>
@@ -446,6 +424,28 @@
             <Description>System Indicator</Description>
             <InstallTitle>indicator-sysmonitor</InstallTitle>
             <PPA>ppa:fossfreedom/indicator-sysmonito</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>WiFite</Title>
+            <Description>wifite</Description>
+            <InstallTitle>wifite aircrack-ng reaver</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+           <Item>
+            <Title>Htop</Title>
+            <Description>htop for shell</Description>
+            <InstallTitle>htop</InstallTitle>
+            <PPA></PPA>
             <GetAptKey></GetAptKey>
             <AptListEntry></AptListEntry>
             <PreInstall></PreInstall>
