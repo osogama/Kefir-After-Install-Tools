@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Kefir After Install
+Version=Alpha
+GenericName=kefir-after-install
+X-GNOME-FullName=Ubuntu After Install
+Comment=Kefir After Intall 
+Type=Application
+Categories=System;
+Path=/opt/kefir-after-install/
+Exec=gksudo python kefir-after-install.py
+Terminal=false
+StartupNotify=true
+Icon=/opt/kefir-after-install/lib/icons/kefir_icon.png

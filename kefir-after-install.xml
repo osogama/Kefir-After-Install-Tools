@@ -365,6 +365,17 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Play On Linux</Title>
+            <Description>Game Platform</Description>
+            <InstallTitle>playonlinux</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>KeePassX</Title>
             <Description>Password Manager</Description>
             <InstallTitle>keepassx</InstallTitle>
