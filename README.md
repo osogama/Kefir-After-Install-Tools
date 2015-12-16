@@ -18,14 +18,15 @@ Selecting and Installing all the extra software on a new Ubuntu computer can be 
 </p>
 
 
-Maybe you need install:
+> Maybe you need install:
 
 sudo apt-get install python-software-properties
-
 sudo apt-get install python-webkit
 
-Run:
+> to install on your operating system, RUN:
 
-sudo python kefir-after-install.py
+chmod 777 ./install.sh
+sudo ./install.sh
+
 
 <edilson_alz@hotmail.com>
