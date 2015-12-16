@@ -9,7 +9,7 @@ Selecting and Installing all the extra software on a new Ubuntu computer can be 
 
 <p align="center">
 
-<img width="550" alt="After"
+<img alt="After"
     src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12294840_940031722739167_131531327489058115_n.png?oh=fbfd05e1a9736266e8c53d410c6fac7f&oe=571D7436&__gda__=1457946797_9ee41c7be60937610c945b90db4e2795">
 </p>
 
