@@ -22,7 +22,18 @@
             <PreInstall>sh -c "echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections"</PreInstall>
             <PostInstall></PostInstall>
             <MinVersion></MinVersion>
-        </Item>      
+        </Item>   
+        <Item>
+            <Title>Java</Title>
+            <Description>Oracle Java 8</Description>
+            <InstallTitle>oracle-java8-installer</InstallTitle>
+            <PPA>ppa:webupd8team/java</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>   
         <Item>
             <Title>VideoLAN libdvdcss2</Title>
             <Description>DVD Decryption</Description>
@@ -332,6 +343,17 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Sound Juicer</Title>
+            <Description>Ripper CD</Description>
+            <InstallTitle>sound-juicer</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>Steam</Title>
             <Description>Game Platform</Description>
             <InstallTitle>steam</InstallTitle>
@@ -423,7 +445,18 @@
             <Title>Indicator System</Title>
             <Description>System Indicator</Description>
             <InstallTitle>indicator-sysmonitor</InstallTitle>
-            <PPA>ppa:fossfreedom/indicator-sysmonito</PPA>
+            <PPA>ppa:fossfreedom/indicator-sysmonitor</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Indicator Weather</Title>
+            <Description>Weather Indicator</Description>
+            <InstallTitle>my-weather-indicator</InstallTitle>
+            <PPA>ppa:atareao/atareao</PPA>
             <GetAptKey></GetAptKey>
             <AptListEntry></AptListEntry>
             <PreInstall></PreInstall>
@@ -452,5 +485,83 @@
             <PostInstall></PostInstall>
             <MinVersion></MinVersion>
         </Item>
+        <Item>
+            <Title>Git</Title>
+            <Description>A Github software</Description>
+            <InstallTitle>git-core</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Unetbootin</Title>
+            <Description>Make a USB boot</Description>
+            <InstallTitle>unetbootin</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>MultiWrite</Title>
+            <Description>Make a USB boot</Description>
+            <InstallTitle>gnome-multi-writer</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Flat Plat</Title>
+            <Description>Theme for Gnome 3.16+</Description>
+            <InstallTitle>flat-plat-gs</InstallTitle>
+            <PPA>ppa:noobslab/themes</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Ambience Flat</Title>
+            <Description>Ambience Flat Colors</Description>
+            <InstallTitle>ambiance-flat-colors</InstallTitle>
+            <PPA>ppa:atareao/atareao</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Radiance Flat</Title>
+            <Description>Radiance Flat Colors</Description>
+            <InstallTitle>radiance-flat-colors</InstallTitle>
+            <PPA>ppa:atareao/atareao</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>Xubuntu Icons</Title>
+            <Description>Elementary Icons Theme</Description>
+            <InstallTitle>xubuntu-icon-theme</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        
     </Software>>    
 </UbuntuAfterInstall>

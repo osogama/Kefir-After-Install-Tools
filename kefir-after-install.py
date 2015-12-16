@@ -979,7 +979,7 @@ if __name__ == "__main__":
   iconPathBlank = os.path.join(installDir, 'lib', 'icons', 'grey.svg')
   xmlFilename = 'kefir-after-install.xml'
   xmlPath = os.path.join(installDir, xmlFilename)
-  VersionFilename = 'version.txt'
+  VersionFilename = ''
   localVersionPath = os.path.join(installDir, VersionFilename)
   remoteVersionDir = 'https://'
   remoteVersionPath = os.path.join(remoteVersionDir, VersionFilename)
