@@ -24,7 +24,7 @@ The program needs dependencies:
 
 > python-webkit
 
-Will be automatically installed with the installation script INSTALL.sh
+Will be automatically installed with the installation script (INSTALL.sh)
 
 To install on your operating system, extract ZIP file, open the folder in terminal and RUN:
 
