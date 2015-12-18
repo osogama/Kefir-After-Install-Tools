@@ -48,6 +48,7 @@ clear
             sudo apt-get install steam -y
             sudo apt-get install openshot
             sudo apt-get install xubuntu-icon-theme -y
+	    sudo apt-get install synergy -y
             sudo apt-get install tuxguitar-alsa tuxguitar-jsa tuxguitar-oss -y
             sudo add-apt-repository ppa:fossfreedom/indicator-sysmonitor -y
             sudo add-apt-repository ppa:ravefinity-project/ppa -y
