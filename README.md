@@ -28,7 +28,7 @@ Will be automatically installed with the installation script (INSTALL.sh)
 
 To install on your operating system, extract ZIP file, open the folder in terminal and RUN:
 
-> chmod 777 ./INSTALL.sh
+> chmod +x ./INSTALL.sh
 
 > sudo ./INSTALL.sh
 
