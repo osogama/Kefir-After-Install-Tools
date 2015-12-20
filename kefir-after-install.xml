@@ -211,6 +211,17 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Pop Corn Time</Title>
+            <Description>Movie Streaming</Description>
+            <InstallTitle>popcorn-time</InstallTitle>
+            <PPA>ppa:webupd8team/popcorntime</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>Geany</Title>
             <Description>IDE code editor</Description>
             <InstallTitle>geany</InstallTitle>
