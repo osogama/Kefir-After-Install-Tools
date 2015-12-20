@@ -28,9 +28,15 @@ Will be automatically installed with the installation script (INSTALL.sh)
 
 To install on your operating system, extract ZIP file, open the folder in terminal and RUN:
 
+> sudo apt-get install git
+
+> git clone https://github.com/Alzemand/Kefir-After-Install-Tools
+
+> cd Kefir-After-Install-Tools/
+
 > chmod +x ./INSTALL.sh
 
-> sudo ./INSTALL.sh
+> ./INSTALL.sh
 
 
 Edilson Alzemand Sigmaringa Junior
