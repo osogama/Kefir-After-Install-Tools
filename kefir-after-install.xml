@@ -409,6 +409,17 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Kazam</Title>
+            <Description>Screenshot Record</Description>
+            <InstallTitle>kazam</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>FileZilla</Title>
             <Description>FTP Client</Description>
             <InstallTitle>filezilla</InstallTitle>
