@@ -973,10 +973,10 @@ if __name__ == "__main__":
   logFile = '/var/log/kefir-after-install.log'
   lockFilePath = os.path.join('/tmp/ubuntu-after-install.lock')
   iconPath = os.path.join(installDir, 'kefir-after-install.png')
-  iconPathError = os.path.join(installDir, 'lib', 'icons', 'red.svg')
-  iconPathReinstall = os.path.join(installDir, 'lib', 'icons', 'orange.svg')
-  iconPathOk = os.path.join(installDir, 'lib', 'icons', 'green.svg')
-  iconPathBlank = os.path.join(installDir, 'lib', 'icons', 'grey.svg')
+  iconPathError = os.path.join(installDir, 'lib', 'icons', 'empathy-busy.png')
+  iconPathReinstall = os.path.join(installDir, 'lib', 'icons', 'empathy-orange.png')
+  iconPathOk = os.path.join(installDir, 'lib', 'icons', 'empathy-available.png')
+  iconPathBlank = os.path.join(installDir, 'lib', 'icons', 'empathy-offline.png')
   xmlFilename = 'kefir-after-install.xml'
   xmlPath = os.path.join(installDir, xmlFilename)
   VersionFilename = ''
@@ -1044,21 +1044,21 @@ if __name__ == "__main__":
   splashProgressBar.set_fraction(0.2)
   checkLocks()
 
-  # Check internet connection
-  splashProgressBar.set_text('Checking internet connection...')
-  splashProgressBar.set_fraction(0.3)
-  refreshGui()
-  if checkInternetConnection('http://ubuntu.com') == False:
-      # OFFLINE
-      renderOfflineDialog()
+#  # Check internet connection
+#  splashProgressBar.set_text('Checking internet connection...')
+#  splashProgressBar.set_fraction(0.3)
+#  refreshGui()
+#  if checkInternetConnection('http://www.google.com') == False:
+#      # OFFLINE
+#      renderOfflineDialog()
  
-  # Check for list update 
-  #splashProgressBar.set_text('Checking for updates...')
-  #splashProgressBar.set_fraction(0.4)
-  #refreshGui()
-  #if checkInternetConnection('http://ubuntu.com') == True:
-      # ONLINE
-      #checkUpdate()
+#  # Check for list update 
+#  splashProgressBar.set_text('Checking for internet...')
+#  splashProgressBar.set_fraction(0.4)
+#  refreshGui()
+#  if checkInternetConnection('http://www.google.com') == True:
+#       ONLINE
+#      #checkUpdate()
  
   # Add Partner Repo Active
   splashProgressBar.set_text('Checking software sources...')
