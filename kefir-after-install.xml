@@ -508,6 +508,17 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Atom</Title>
+            <Description>Atom developer</Description>
+            <InstallTitle>atom</InstallTitle>
+            <PPA>add-apt-repository ppa:webupd8team/atom</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>Unetbootin</Title>
             <Description>Make a USB boot</Description>
             <InstallTitle>unetbootin</InstallTitle>
