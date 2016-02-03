@@ -575,6 +575,7 @@ def on_install_button_active(button, model, itemSelectCount):
     
     # Stop Spinner
     spinner.stop()
+    os.system("python notify.py")
     label.set_text('Installation Complete')
     debugPrint('[END] Installation Complete')
     appendToLog('[END] Installation Complete')
@@ -886,12 +887,12 @@ def renderMainWindow():
     spinner = Gtk.Spinner()
 
     # Create Install Button
-    installButton = Gtk.Button("Instalar agora")
+    installButton = Gtk.Button("Install")
     installButton.connect("clicked", on_install_thread, menuItemStore)
 
 
     # Create Cancel Button
-    cancelButton = Gtk.Button("_Cancelar", use_underline=True)
+    cancelButton = Gtk.Button("_Cancel", use_underline=True)
     cancelButton.connect("clicked", on_cancel_button_clicked)
 
     
