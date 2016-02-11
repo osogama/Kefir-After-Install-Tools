@@ -211,17 +211,6 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
-            <Title>Pop Corn Time</Title>
-            <Description>Movie Streaming</Description>
-            <InstallTitle>popcorn-time</InstallTitle>
-            <PPA>ppa:webupd8team/popcorntime</PPA>
-            <GetAptKey></GetAptKey>
-            <AptListEntry></AptListEntry>
-            <PreInstall></PreInstall>
-            <PostInstall></PostInstall>
-            <MinVersion></MinVersion>
-        </Item>
-        <Item>
             <Title>Geany</Title>
             <Description>IDE code editor</Description>
             <InstallTitle>geany</InstallTitle>
@@ -255,31 +244,9 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
-            <Title>Darktable</Title>
-            <Description>Image Processor</Description>
-            <InstallTitle>darktable</InstallTitle>
-            <PPA>ppa:pmjdebruijn/darktable-release</PPA>
-            <GetAptKey></GetAptKey>
-            <AptListEntry></AptListEntry>
-            <PreInstall></PreInstall>
-            <PostInstall></PostInstall>
-            <MinVersion></MinVersion>
-        </Item>
-        <Item>
             <Title>Inkscape</Title>
             <Description>Vector Graphics Editor</Description>
             <InstallTitle>inkscape</InstallTitle>
-            <PPA></PPA>
-            <GetAptKey></GetAptKey>
-            <AptListEntry></AptListEntry>
-            <PreInstall></PreInstall>
-            <PostInstall></PostInstall>
-            <MinVersion></MinVersion>
-        </Item>
-        <Item>
-            <Title>Scribus</Title>
-            <Description>Desktop Publishing</Description>
-            <InstallTitle>scribus</InstallTitle>
             <PPA></PPA>
             <GetAptKey></GetAptKey>
             <AptListEntry></AptListEntry>
@@ -409,10 +376,32 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Kazam</Title>
+            <Description>Screenshot Record</Description>
+            <InstallTitle>kazam</InstallTitle>
+            <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>FileZilla</Title>
             <Description>FTP Client</Description>
             <InstallTitle>filezilla</InstallTitle>
             <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>FreeFileSync</Title>
+            <Description>Sync you files</Description>
+            <InstallTitle>freefilesync</InstallTitle>
+            <PPA>add-apt-repository ppa:freefilesync/ffs</PPA>
             <GetAptKey></GetAptKey>
             <AptListEntry></AptListEntry>
             <PreInstall></PreInstall>
@@ -519,10 +508,32 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Atom</Title>
+            <Description>Atom developer</Description>
+            <InstallTitle>atom</InstallTitle>
+            <PPA>add-apt-repository ppa:webupd8team/atom</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>Unetbootin</Title>
             <Description>Make a USB boot</Description>
             <InstallTitle>unetbootin</InstallTitle>
             <PPA></PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
+            <Title>System Back</Title>
+            <Description>Backup your system</Description>
+            <InstallTitle>systemback</InstallTitle>
+            <PPA>ppa:nemh/systemback</PPA>
             <GetAptKey></GetAptKey>
             <AptListEntry></AptListEntry>
             <PreInstall></PreInstall>

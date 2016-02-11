@@ -17,6 +17,8 @@ sudo cp -R * /opt/kefir-after-install/
 sudo cp kefir-after-install.desktop /usr/share/applications/
 sudo chmod +x /usr/share/applications/kefir-after-install.desktop
 sudo chmod +x /opt/kefir-after-install/*.*
+cd /opt/kefir-after-install/
+sudo python -m py_compile kefir-after-install.py
 
 clear
 echo "A instalação foi concluída!"
