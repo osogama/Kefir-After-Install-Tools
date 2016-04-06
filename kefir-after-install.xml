@@ -519,6 +519,17 @@
             <MinVersion></MinVersion>
         </Item>
         <Item>
+            <Title>Android Studio</Title>
+            <Description>Android SDK developer</Description>
+            <InstallTitle>android-studio</InstallTitle>
+            <PPA>add-apt-repository ppa:paolorotolo/android-studio</PPA>
+            <GetAptKey></GetAptKey>
+            <AptListEntry></AptListEntry>
+            <PreInstall></PreInstall>
+            <PostInstall></PostInstall>
+            <MinVersion></MinVersion>
+        </Item>
+        <Item>
             <Title>Unetbootin</Title>
             <Description>Make a USB boot</Description>
             <InstallTitle>unetbootin</InstallTitle>

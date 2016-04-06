@@ -1,0 +1,9 @@
+Package: kefir-after-install 
+source: kefir-after-install.py
+Version:0.1
+Architecture: all
+Depends: python-software-properties, python-webkit
+installed-Size:230
+Maintainer: Edilson Alzemand    
+Description: Automated installation a lot of useful extra software on Ubuntu after the initial desktop install. 
+Copyright: GPL2
